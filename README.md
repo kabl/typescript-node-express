@@ -2,7 +2,7 @@
 Based on: http://mherman.org/blog/2016/11/05/developing-a-restful-api-with-node-and-typescript/#.WQOYuDexVhG
 
 ```bash
-gulp scripts
+gulp scripts 
 npm test
 npm start
 
