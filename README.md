@@ -9,7 +9,8 @@ npm run start
 # Open Browser: localhost:3000
 
 # Debug
-sudo npm install -g node-inspector
 npm run debug
-# Open Browser: http://127.0.0.1:8080/?port=5858 and http://localhost:3000/
+# Open Browser: <get URL from console output> and http://localhost:3000/
 ```
+
+https://nodejs.org/api/debugger.html
