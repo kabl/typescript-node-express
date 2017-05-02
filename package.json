@@ -5,7 +5,8 @@
   "main": "tsconfig.js",
   "scripts": {
     "test": "mocha --reporter spec --compilers ts:ts-node/register 'test/**/*.test.ts'",
-    "start": "gulp scripts && node dist/index.js"
+    "start": "gulp scripts && node dist/index.js",
+    "debug": "gulp scripts && node-debug dist/index.js"
   },
   "keywords": [],
   "author": "",

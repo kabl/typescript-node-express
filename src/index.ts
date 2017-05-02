@@ -1,18 +1,16 @@
 import * as http from 'http';
 import * as debug from 'debug';
-
-import App from './App';
+import * as App from './App'; 
 
 debug('ts-express:server');
 
 const port = 3000;
-App.set('port', port);
+App.default.set('port', port);
 
-const server = http.createServer(App);
+const server = http.createServer(App.default);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
-
 
 function onError(error: NodeJS.ErrnoException): void {
   if (error.syscall !== 'listen') throw error;
